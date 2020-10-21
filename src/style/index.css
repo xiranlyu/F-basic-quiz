@@ -37,3 +37,28 @@ body {
 .hr {
   border: #f8f9fa 2px solid;
 }
+
+h2 {
+  color: #e55b50;
+  font-weight: bold;
+}
+
+.edu_article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.year {
+  width: 20%;
+}
+
+.edu_content {
+  width: 80%;
+  background-color: #f8f9fa;
+  padding: 0 10px 0 10px;
+}
+
+.edu_content-first_line {
+  font-weight: bolder;
+}
