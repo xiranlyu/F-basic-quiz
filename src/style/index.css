@@ -5,6 +5,7 @@ body {
   margin: auto;
 }
 
+/* TODO GTB-4: - margin一般不使用百分比 */
 .mainContainer {
   background-color: white;
   margin: 8% 5% 5% 5%;
@@ -43,6 +44,8 @@ h2 {
   font-weight: bold;
 }
 
+/* TODO GTB-3: + 合理使用了flex布局 */
+/* TODO GTB-4: + 合理的样式复用 */
 .edu_article {
   display: flex;
   justify-content: space-between;

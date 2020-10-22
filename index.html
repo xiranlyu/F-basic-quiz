@@ -10,9 +10,18 @@
     <link rel="stylesheet" href="./src/style/index.css" />
   </head>
   <title>Resume</title>
+  <!-- TODO GTB-1: * 页面还原度较高，细节还有优化空间 -->
+  <!-- TODO GTB-1: * 没有通过网络请求获取页面数据 -->
+  <!-- TODO GTB-2: * 没有测试 -->
+  <!-- TODO GTB-3: * 页面样式整体没有问题 -->
+  <!-- TODO GTB-4: * 有小步提交，提交message可以简化 -->
+  <!-- TODO GTB-0: * JS相关内容无法验证 -->
   <body>
+    <!-- TODO GTB-4: - 一般而言js引入标签放在body最后面 -->
     <script src="src/app.js"></script>
     <main class="mainContainer">
+      <!-- TODO GTB-3: + 页面结构划分较为合理 -->
+      <!-- TODO GTB-3: - 试着使用语义化标签 -->
       <div class="profile">
         <img
           src="https://inews.gtimg.com/newsapp_match/0/3581582328/0"
@@ -26,6 +35,7 @@
       </div>
       <hr class="hr" />
       <section class="content">
+        <!-- TODO GTB-4: - class命名为a-b-c形式 -->
         <section class="about_me">
           <h2>ABOUT ME</h2>
           <p>
@@ -41,6 +51,7 @@
             <p class="year">1990</p>
             <div class="edu_content">
               <p class="edu_content-first_line">I was born in Katowice</p>
+              <!-- TODO GTB-4: - class命名语义化需要加强 -->
               <p class="edu_content-p">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, exercitationem, totam, dolores iste dolore est aut
